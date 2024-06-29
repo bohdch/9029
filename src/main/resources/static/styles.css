@@ -1,0 +1,65 @@
+body {
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.home-page {
+    background-image: url('https://media1.tenor.com/m/TCEyVCo9wG0AAAAC/dark-souls-bonfire.gif');
+}
+
+.lecturers-page {
+    background-image: url('https://i.gifer.com/bAV.gif');
+}
+.purpose-page {
+    background-image: url("https://img0.joyreactor.cc/pics/post/%D0%B3%D0%B8%D1%84%D0%BA%D0%B8-Pixel-Gif-%D0%9A%D0%BE%D1%81%D1%82%D0%B5%D1%80-Shovel-Knight-1531132.gif");
+}
+.support-page {
+    background-image: url("https://giffiles.alphacoders.com/217/217733.gif");
+}
+.users-suggestions-page {
+    background-image: url("https://i.imgur.com/Uwy23gK.gif");
+}
+.secret-page {
+    background-image: url("https://i.pinimg.com/originals/7a/e7/a7/7ae7a72706415ba1279cd1f2ae7854ca.gif");
+}
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.link {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+    border-bottom: 2px solid transparent;
+}
+
+
+.link:hover {
+    color: #2980b9;
+    border-bottom: 2px solid #2980b9;
+}
+
+
+.link:active {
+    color: #1c5981;
+    border-bottom: 2px solid #1c5981;
+}
+.lecturer-jumbotron {
+    position: fixed; /* Фиксированное положение */
+    top: 0; /* Отступ сверху 0 */
+    left: 0; /* Отступ слева 0 */
+    width: 50vw; /* Ширина 50% от ширины окна */
+    height: 100vh; /* Высота 100% от высоты окна */
+    padding: 20px; /* Внутренние отступы */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Тень справа */
+    overflow-y: auto; /* Вертикальная прокрутка при переполнении */
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    color: white;
+}
+
+
